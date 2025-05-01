@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to right, #6c75b9, #9c67e7);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .form-container:hover{
+    background: linear-gradient(200deg,rgb(238, 238, 148),rgb(217, 185, 124));
+    border: solid rgb(174, 16, 174) 2px;
+    animation: alternate 5px ;
+    box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .form-container {
+    background: #f3e5a2;
+    color: #232222;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+  .error {
+    color: red;
+    font-size: 14px;
+  }
